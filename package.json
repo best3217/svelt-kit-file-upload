@@ -1,0 +1,40 @@
+{
+  "name": "svelte-kit-file-upload",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "node ./src/server.mjs",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "busboy": "^0.3.1",
+    "filedrop-svelte": "^0.1.2",
+    "filesize": "^10.0.5",
+    "fs-extra": "^10.0.0",
+    "pintura": "^0.3.10",
+    "polka": "^0.5.2"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "next",
+    "@sveltejs/kit": "^1.0.0-next.218",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.42.6",
+    "svelte-check": "^2.2.6",
+    "svelte-fa": "^3.0.3",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.2.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jack-y/svelte-kit-file-upload.git"
+  }
+}
